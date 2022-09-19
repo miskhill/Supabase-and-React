@@ -5,6 +5,7 @@ import SmoothieCard from "../components/smoothieCard";
 const Home = () => {
     const [fetchError, setFetchError] = useState(null);
     const [smoothies, setSmoothies] = useState(null);
+    console.log(smoothies);
 
     useEffect(() => {
       //fetch smoothies from supabase
