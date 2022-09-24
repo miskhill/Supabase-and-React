@@ -7,7 +7,7 @@ const Create = () => {
 
     const [title, setTitle] = useState('')
     const [method, setMethod] = useState('')
-    const [rating, setRating] = useState(0)
+    const [rating, setRating] = useState(null)
     const [error, setError] = useState(null)
 
     const handleSubmit = async (e) => {
