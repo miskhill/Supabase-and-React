@@ -12,5 +12,6 @@ Learns -
 
 React - using the useNavigate hook to navigate between pages
       - useParams - to get the id of the selected smoothie
+      - pre-populate the edit form with the smoothie details
       
 SupaBase - setting up the database and using the supabase client to query the database
