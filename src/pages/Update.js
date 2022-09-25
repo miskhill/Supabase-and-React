@@ -9,6 +9,7 @@ const Update = () => {
     const [title, setTitle] = useState("");
     const [method, setMethod] = useState("");
     const [rating, setRating] = useState("");
+    const [error, setError] = useState(null);
     //.eq passes in a couple of params that let us select the smoothie with the id that matches the id in the url
     //basically stands for equals.
     //.single method returns a single object instead of an array.
@@ -33,9 +34,30 @@ const Update = () => {
         fetchSmoothie();
     }, [id, navigate]);
 
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        if (!title || !method || !rating) {
+            setError("Please fill in all fields");
+            return;
+        }
+        const { data, error } = await supabase
+            .from("smoothies")
+            .update({ title, method, rating })
+            .eq("id", id);
+        if (error) {
+            setError(error.message);
+            return;
+        }
+        if (data) {
+            setError(null);
+            navigate("/");
+        }
+
+    }
+
   return (
     <div className="page update">
-        <form >
+        <form onSubmit={handleSubmit}>
             <label htmlFor="title">Smoothie Title</label>
             <input type="text" id="title" value={title} onChange={(e) => setTitle(e.target.value)} />
 
@@ -47,7 +69,7 @@ const Update = () => {
 
             <button>Update Smoothie Recipe</button>
 
-            {/*{error && <p className="error">{error}</p>}*/}
+            {error && <p className="error">{error}</p>}
         </form>
     </div>
   )
