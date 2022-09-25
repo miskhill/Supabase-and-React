@@ -15,3 +15,5 @@ React - using the useNavigate hook to navigate between pages
       - pre-populate the edit form with the smoothie details
       
 SupaBase - setting up the database and using the supabase client to query the database
+            - using the supabase client to insert, update and delete data from the database
+- using the supabase client to set custom security for the database RLS
