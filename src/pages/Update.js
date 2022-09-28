@@ -22,7 +22,7 @@ const Update = () => {
                 .eq("id", id)
                 .single();
             if (error) {
-                console.log(error);
+                console.log(error, 'show any error here');
                 navigate('/', {replace: true});
             }
             if(data){
