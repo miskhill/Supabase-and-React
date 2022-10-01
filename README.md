@@ -17,3 +17,6 @@ React - using the useNavigate hook to navigate between pages
 SupaBase - setting up the database and using the supabase client to query the database
             - using the supabase client to insert, update and delete data from the database
 - using the supabase client to set custom security for the database RLS
+
+
+![Screenshot 2022-10-01 at 09 43 08](https://user-images.githubusercontent.com/80961839/193401162-800c2987-5867-4834-bacb-60d268fbe6e0.png)
