@@ -2,7 +2,7 @@
 
 **Weekend Supabase Project**
 
-I wanted to try the Firebase alternative Supabase and see how I could use this for future projects to quickly and easily make a backend. I found it very simple and intuitive to use with lots of code snippets and help along the way. I also used some new React functions I hadn't previously used due to using older versions of React.
+I wanted to try the Firebase alternative Supabase and see how I could use this for future projects to quickly and easily make a backend. I found it very simple and intuitive to use with lots of code snippets and help along the way. I also used some new React functions I hadn't previously used due to using older versions of React. I completed this over a weekend and have listed some improvements I could make further down the ReadMe. 
 
 **Learns**
 
