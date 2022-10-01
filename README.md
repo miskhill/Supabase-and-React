@@ -20,3 +20,8 @@ SupaBase - setting up the database and using the supabase client to query the da
 
 
 ![Screenshot 2022-10-01 at 09 43 08](https://user-images.githubusercontent.com/80961839/193401162-800c2987-5867-4834-bacb-60d268fbe6e0.png)
+
+Below is the basic page to enter or edit a smoothie.
+
+![Screenshot 2022-10-01 at 09 45 46](https://user-images.githubusercontent.com/80961839/193401263-21a714c3-3768-45f8-92d6-d3ceb5c0abfc.png)
+
