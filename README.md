@@ -6,7 +6,7 @@ I wanted to try the Firebase alternative Supabase and see how I could use this f
 
 **Learns**
 
-1. Using the useNavigate hook to navigate quickly between pages when I completed a section
+1. Using the useNavigate hook to navigate quickly between pages when I completed a section!
 2. useParams - to get the ID of the selected smoothie
 3. pre-populating the edit form with the smoothie details
 4. Setting up the Supabase backend database
