@@ -48,7 +48,7 @@ const Home = () => {
                 </div>
                 <div className="smoothie-grid">
                 {smoothies.map((smoothie) => (
-                   <SmoothieCard key={smoothie.id} smoothie={smoothie} onDelete={handleDelete} />
+                  <SmoothieCard key={smoothie.id} smoothie={smoothie} onDelete={handleDelete} />
                 ))}
                 </div>
             </div>

@@ -13,10 +13,12 @@ function App() {
         <h1>Supa Smoothies</h1>
         <Link to="/">Home</Link>
         <Link to="/create">Create New Smoothie</Link>
+        <Link to="/register">Register</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/create" element={<Create />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/:id" element={<Update />} />
       </Routes>
     </BrowserRouter>
